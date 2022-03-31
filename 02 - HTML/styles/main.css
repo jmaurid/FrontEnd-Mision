@@ -1,3 +1,29 @@
-body{
-    
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: aqua;
+    height: 7vh;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    height: 7vh; 
+    align-items: center;
+    justify-content: end;
+    margin-right: 5vh;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 10px 0px 10px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
 }
