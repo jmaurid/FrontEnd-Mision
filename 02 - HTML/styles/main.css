@@ -20,10 +20,24 @@ ul{
 
 ul li{
     display: inline-block;
-    margin: 0 10px 0px 10px;
+    margin: 0 10px;
+    border-radius: 100px;
+    padding: 3px 10px;
+    width: max-content;
 }
 
 ul li a{
     display: block;
     text-decoration: none;
+}
+
+ul li:hover{
+    display: block;
+    background-color: black;
+    transition: background-color 0.3s ease-in-out
+}
+
+main{
+    height: max-content;
+    width: 100%;
 }
